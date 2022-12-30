@@ -1,0 +1,55 @@
+img {
+  max-width: 450px;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: flex-end;
+  min-width: 300px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  font-size: xx-large;
+  text-align: center;
+}
+
+p {
+  text-align: start;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right bottom, white, #b5f5ec 100%);
+}
+
+.profile-des {
+  max-width: 450px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+}
+
+.mySpan {
+  /* 外间距 */
+  margin: 5px 10px;
+  /* 内间距 */
+  padding: 5px 10px;
+  /* 字体颜色 */
+  color: #fff;
+  /* 背景颜色 */
+  background-color: #13c2c2;
+  /* 圆角处理 */
+  border-radius: 5px;
+  /* 鼠标手样式 */
+  cursor: pointer;
+}

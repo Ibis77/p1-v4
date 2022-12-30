@@ -1,0 +1,26 @@
+img {
+  max-width: 550px;
+  padding-top: 100px;
+}
+
+body {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.background {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(to right bottom, white, #b5f5ec 100%);
+}
+
+footer {
+  display: flex;
+  flex-direction: column-reverse;
+}
